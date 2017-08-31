@@ -16,3 +16,7 @@ Use the template (RFC 0) and submit a PR. We'll fix your RFC number and accept y
 21:35 <@minerobber> Say you submit RFC 2 about migrating wiki pages and forget to mention that the section on contributing needs work
 21:36 <@minerobber> you can submit RFC 3 with "Updates: 2" and say that the section on contributing needs work
 ```
+
+## TODOs
+
+ * Fix markdown parser
