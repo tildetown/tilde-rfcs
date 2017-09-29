@@ -146,8 +146,8 @@ After a `wiki publish`, the resulting site structure will look like this:
 ## Future Improvements
 
    - A macro system that can handle the following expansions:
-     - prefixing a string with ~: expands to a user's page link. e.g. /~vilmibm/
-     - prefixing a string with ~wiki: expands to a wiki page link, e.g. /~wiki:editors/ed.html/
+     - prefixing a string with ~: expands to a user's page link. e.g. `~vilmibm`
+     - prefixing a string with ~wiki: expands to a wiki page link, e.g. `~wiki:editors/ed.html/`
    - modify the `wiki get <path>` command to act as a local flavor replacement
      of `man`. This might look like a different compilation "target" distinct
      from compiling HTML for the web.
