@@ -34,7 +34,7 @@ def get_document(filename,format):
 			ret = dict(title=title,number=int(rfcnum))
 			while not lines[0].startswith("|Author|"):
 				lines.pop(0)
-			ret["author"] = lines.pop(0)[9:-1]
+			ret["author"] = lines.pop(0)[8:-1]
 			ret["status"] = lines.pop(0)[9:-1]
 			if lines[0].startswith("|Updates|"):
 				ret["updates"] = [int(p) for p in lines.pop(0)[10:-1].split(", ")]
